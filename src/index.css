@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+
+
+/**************************************/
+
+.mainDesign {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.searchBarContainer {
+  margin: 50px 0;
+  
+}
+
+
+.searchBoxDesign {
+  padding: 15px 10px 15px 20px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
